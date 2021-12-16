@@ -8,6 +8,169 @@
       <url>https://zellyshu.github.io/cover.png</url>
       <link>https://zellyshu.github.io/cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://zellyshu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Dec 2021 15:44:35 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tool</title>
+      <link>https://zellyshu.github.io/categories/tool/</link>
+      <pubDate>Wed, 15 Dec 2021 15:44:35 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logseq</title>
+      <link>https://zellyshu.github.io/categories/logseq/</link>
+      <pubDate>Fri, 12 Nov 2021 15:44:05 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/logseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>한글자소분리</title>
+      <link>https://zellyshu.github.io/categories/%ED%95%9C%EA%B8%80%EC%9E%90%EC%86%8C%EB%B6%84%EB%A6%AC/</link>
+      <pubDate>Fri, 12 Nov 2021 15:44:05 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/%ED%95%9C%EA%B8%80%EC%9E%90%EC%86%8C%EB%B6%84%EB%A6%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tableau</title>
+      <link>https://zellyshu.github.io/categories/tableau/</link>
+      <pubDate>Sat, 30 Oct 2021 10:20:28 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/tableau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tableau Desktop Specialist</title>
+      <link>https://zellyshu.github.io/categories/tableau-desktop-specialist/</link>
+      <pubDate>Sat, 30 Oct 2021 10:20:28 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/tableau-desktop-specialist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amundsen</title>
+      <link>https://zellyshu.github.io/categories/amundsen/</link>
+      <pubDate>Tue, 19 Oct 2021 16:38:57 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/amundsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Discovery Tool</title>
+      <link>https://zellyshu.github.io/categories/data-discovery-tool/</link>
+      <pubDate>Tue, 19 Oct 2021 16:38:57 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/data-discovery-tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://zellyshu.github.io/categories/docker/</link>
+      <pubDate>Tue, 19 Oct 2021 16:38:57 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>https://zellyshu.github.io/categories/database/</link>
+      <pubDate>Wed, 29 Sep 2021 15:41:07 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache</title>
+      <link>https://zellyshu.github.io/categories/apache/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Visualization</title>
+      <link>https://zellyshu.github.io/categories/data-visualization/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenSource</title>
+      <link>https://zellyshu.github.io/categories/opensource/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://zellyshu.github.io/categories/python/</link>
+      <pubDate>Tue, 14 Sep 2021 10:42:13 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TabPy</title>
+      <link>https://zellyshu.github.io/categories/tabpy/</link>
+      <pubDate>Tue, 14 Sep 2021 10:42:13 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/tabpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://zellyshu.github.io/categories/cloud/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>https://zellyshu.github.io/categories/service/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>https://zellyshu.github.io/categories/server/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
+      <link>https://zellyshu.github.io/categories/backend/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/backend/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

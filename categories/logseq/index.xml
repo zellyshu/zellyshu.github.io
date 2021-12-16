@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Logseq on ZS Log</title>
+    <link>https://zellyshu.github.io/categories/logseq/</link>
+    <description>Recent content in Logseq on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 12 Nov 2021 15:44:05 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/categories/logseq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS에서 작성한 Logseq 내용이 Windows 환경에서 보이지 않을 때 (한글자소분리 이슈)</title>
+      <link>https://zellyshu.github.io/posts/2021-11-12-logseq-hanguljaso/</link>
+      <pubDate>Fri, 12 Nov 2021 15:44:05 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-11-12-logseq-hanguljaso/</guid>
+      <description>Intro 최근 Logseq와 Obsidian을 같이 활용하여 생각을 정리해보고자 하고 있다. 회사에서는 Windows를 사용하지만, 평상시에는 mac OS 및 Apple 생태계의 기기들을 주로 사용하는 나에게 있어 크로스 플랫폼은 필수적인 요소인데 이를 만족하는 것이 Obsidian이었다. 최근 모바일 앱도 나와서 쏠쏠하게 사용 중에 있는데, 이를 활용하여 Logseq + Obsidian 함께 활용하기를 보고 Logseq를 통해서도 정리해보고자 마음을 먹게 된 것이다.
+그런데 글이 안보인다&amp;hellip;? icloud를 통하여 동기화시켜서 mac 환경과 windows 환경에서 모두 사용할 수 있게끔 세팅을 마쳤다.</description>
+    </item>
+    
+  </channel>
+</rss>

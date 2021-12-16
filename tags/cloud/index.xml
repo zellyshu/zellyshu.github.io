@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloud on ZS Log</title>
+    <link>https://zellyshu.github.io/tags/cloud/</link>
+    <description>Recent content in Cloud on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IBM Cloud 가입부터 간단한 설정까지</title>
+      <link>https://zellyshu.github.io/posts/2021-04-15-ibm-cloud/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-04-15-ibm-cloud/</guid>
+      <description>Intro 본 포스팅은 이전 Oracle Cloud 가입과 간단한 설정에 관하여 작성했던 포스트의 IBM 버전이다. IBM Cloud의 가입과 Free Tier인 Lite 계정에서 클라우드 초심자가 개발 환경을 설정해 본 경험을 (= 미래의 내가 잊어먹지 않도록 정리해둔 것을) 다룬 것이다. 나와 같은 분들과 IBM Cloud를 처음 사용하시는 분들께 조금이나마 참고 자료로서 도움이 되었으면 하는 마음에 글을 작성하였다.
+IBM Cloud란? IBM Cloud는 어디선가 한 번쯤은 들어봤을 IBM사에서 운영하는 Cloud Flatform으로, 현재 무료 티어인 Lite 계정을 지원하고 있다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud 가입부터 간단한 설정까지</title>
+      <link>https://zellyshu.github.io/posts/2021-03-31-oracle-cloud/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-03-31-oracle-cloud/</guid>
+      <description>Intro 본 포스팅은 Oracle Cloud 의 가입과 Free Tier에서 클라우드 초보자의 입장에서 개발 환경을 설정해 본 경험을 (= 미래의 내가 잊어먹지 않도록 정리해둔 것을) 다룬 것이다. 나와 같은 분들과 Oracle Cloud를 처음 사용하시는 분들께 조금이나마 참고 자료로서 도움이 되었으면 하는 마음에 글을 작성하였다.
+Oracle Cloud란? Oracle Cloud는 어디선가 한 번쯤은 들어봤을 Oracle사에서 운영하는 Cloud Flatform으로, GCP, AWS와 비교하여 Free Tier를 2개나 지원하고 있다. 특히 Free Tier에서도 DB 2개, 컴퓨팅 VMs, 100GB 블록의 볼륨, 10GB 객체 스토리지를 제공하고 있다는 것이 특장점이다.</description>
+    </item>
+    
+  </channel>
+</rss>

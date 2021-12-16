@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pearson VUE on ZS Log</title>
+    <link>https://zellyshu.github.io/tags/pearson-vue/</link>
+    <description>Recent content in Pearson VUE on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 30 Oct 2021 10:20:28 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/pearson-vue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tableau Desktop Specialist 합격 후기 (Pearson VUE 환경)</title>
+      <link>https://zellyshu.github.io/posts/2021-10-30-tableau-desktop-specialist-review/</link>
+      <pubDate>Sat, 30 Oct 2021 10:20:28 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-10-30-tableau-desktop-specialist-review/</guid>
+      <description>Intro Tableau를 업무 중에 계속 활용하다보니 어느정도 자신감이 붙어있는 상태였다. 하지만, 프로젝트를 진행하면서 발생하는 산출물과 같은 부분은 완전히 내 것으로 남는 것 같다는 느낌이 들지 않았다. 그러던 중 자격증명 같은 거라도 있으면 그래도 Tableau 관련 업무를 하며 남은 것이 생겼다라는 느낌이 들지 않을까 싶어 Tableau Desktop Specialist를 취득하고자 생각하게 되었다.
+Tableau Desktop Specialist 기존에는 LES라는 시험 플랫폼을 통해서 시험을 진행했었지만, 지금은 Pearson VUE라는 플랫폼을 통해서만 시험을 진행하고 있다. 이전에 Tableau 관련 교육을 받을 때나 자격증 관련 이야기를 들을 때 LES에서 진행되는 형태만 들어왔기 때문에 당연히 그럴 줄 알고 준비를 진행하려 했었는데 막상 결제까지 하고보니 시험 방식이 달라졌다는 것을 그 때 알게 되었다&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

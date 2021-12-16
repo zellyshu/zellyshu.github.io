@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Thunderbird on ZS Log</title>
+    <link>https://zellyshu.github.io/tags/thunderbird/</link>
+    <description>Recent content in Thunderbird on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/thunderbird/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>모질라 썬더버드 사용기</title>
+      <link>https://zellyshu.github.io/posts/2021-03-30-mozilla-thunderbird/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-03-30-mozilla-thunderbird/</guid>
+      <description>직장인에게 있어 메일관리는 필수적이라 할 수 있다. 대학생 때까지야 메일 계정 하나 가지고 개인 용도로도 사용하고, 조별 과제도 하고, 대외활동도 하고 하였으나 대학원을 다니며 자연스레 개인용 계정과 업무용 계정이 분리되게 되었다.
+대학원 졸업 이후 회사에 들어가니 회사 메일 계정을 받게 되고, 파견을 나가니 파견회사의 메일 계정을 또 만들게 되고&amp;hellip; 그렇게 프로젝트를 몇 개 진행하다보니 어느새 메일 계정 여러 개를 동시에 확인해야 하는 상황에 이르게 되었다.
+이렇게 업무용 뿐만 아니라 개인용도까지 메일을 여러 개 사용해야 하는 경우가 생기게 되면서 하나의 플랫폼에서 확인하면 편하겠다라는 생각이 들었다.</description>
+    </item>
+    
+  </channel>
+</rss>

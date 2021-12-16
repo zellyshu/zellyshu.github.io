@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tool on ZS Log</title>
+    <link>https://zellyshu.github.io/categories/tool/</link>
+    <description>Recent content in Tool on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Dec 2021 15:44:35 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/categories/tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>사용하는 툴 &amp; 프로그램 정리</title>
+      <link>https://zellyshu.github.io/posts/2021-12-15-tool/</link>
+      <pubDate>Wed, 15 Dec 2021 15:44:35 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-12-15-tool/</guid>
+      <description>Intro 연말을 맞이하여 업무 및 일상에 있어 어떠한 툴과 프로그램들을 사용하고 있는지 현황을 파악해보아야겠다는 생각이 갑자기 들었다. 특히 올해는 생산성 향상이라는 방향에 있어 Product Hunt 및 뉴스레터 등에서 본 많은 툴들을 설치하고 제거하고를 수 없이 반복했기에 이걸 1년마다 최신화를 시킨다면 나중에 보았을 때도 괜찮은 자료로 남지 않을까 싶었다. 간단하게 테이블 형태로 정리해보니 생각보다 많은 양에 놀랐다. 혹여나 누군가에게 도움이 된다면 좋겠다는 생각에 정리 사항을 남겨본다.
+2021.12.15 기준    목적 Tool     프로젝트 관리 Notion -&amp;gt; Clickup   메일 클라이언트 Mozilla Thunderbird   Web Browser (업무) Chrome   Web Browser (개인) Firefox   Password Manager Bitwarden Premium   DB DBeaver   API Postman   Markdown Typora (유료화로 인하여 변경) -&amp;gt; Mark Text   SSH Putty -&amp;gt; MobaXterm   SCP WinSCP -&amp;gt; MobaXterm   Image Viewer 꿀뷰   영상편집 뱁믹스   압축파일 반디집   데이터 시각화 Tableau   Cloud Oracle, GCP   Python Coding IDE Pycharm   그 외 Coding IDE VSCode   개인 아카이브 Obsidian   생각 정리 Logseq   Workflow (mac OS) Alfred 4   Workflow (Win) Wox -&amp;gt; Fluent-Search   Clipboard Ditto   파일 및 폴더 검색 Everything   RSS Slack, Feedly   창 분할 (mac OS) Magnet   창 분할 (Win) PowerToys   VPN FortiClient VPN Only   노트 UpNote (Premium)   Font Pretendard   개인 일정 (여행 등) KanbanFlow   일정관리 (Phone) Calendars 5    보류    목적 Tool 보류 이유     프로젝트 관리 JetBrains Space 창이 두 개가 켜지지 않고, 스프린트 기반의 관리가 익숙해지지 않아서    </description>
+    </item>
+    
+    <item>
+      <title>모질라 썬더버드 사용기</title>
+      <link>https://zellyshu.github.io/posts/2021-03-30-mozilla-thunderbird/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-03-30-mozilla-thunderbird/</guid>
+      <description>직장인에게 있어 메일관리는 필수적이라 할 수 있다. 대학생 때까지야 메일 계정 하나 가지고 개인 용도로도 사용하고, 조별 과제도 하고, 대외활동도 하고 하였으나 대학원을 다니며 자연스레 개인용 계정과 업무용 계정이 분리되게 되었다.
+대학원 졸업 이후 회사에 들어가니 회사 메일 계정을 받게 되고, 파견을 나가니 파견회사의 메일 계정을 또 만들게 되고&amp;hellip; 그렇게 프로젝트를 몇 개 진행하다보니 어느새 메일 계정 여러 개를 동시에 확인해야 하는 상황에 이르게 되었다.
+이렇게 업무용 뿐만 아니라 개인용도까지 메일을 여러 개 사용해야 하는 경우가 생기게 되면서 하나의 플랫폼에서 확인하면 편하겠다라는 생각이 들었다.</description>
+    </item>
+    
+  </channel>
+</rss>

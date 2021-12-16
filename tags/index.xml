@@ -8,6 +8,304 @@
       <url>https://zellyshu.github.io/cover.png</url>
       <link>https://zellyshu.github.io/cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://zellyshu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Dec 2021 15:44:35 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS</title>
+      <link>https://zellyshu.github.io/tags/macos/</link>
+      <pubDate>Wed, 15 Dec 2021 15:44:35 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool</title>
+      <link>https://zellyshu.github.io/tags/tool/</link>
+      <pubDate>Wed, 15 Dec 2021 15:44:35 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://zellyshu.github.io/tags/windows/</link>
+      <pubDate>Wed, 15 Dec 2021 15:44:35 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logseq</title>
+      <link>https://zellyshu.github.io/tags/logseq/</link>
+      <pubDate>Fri, 12 Nov 2021 15:44:05 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/logseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>한글자소분리</title>
+      <link>https://zellyshu.github.io/tags/%ED%95%9C%EA%B8%80%EC%9E%90%EC%86%8C%EB%B6%84%EB%A6%AC/</link>
+      <pubDate>Fri, 12 Nov 2021 15:44:05 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/%ED%95%9C%EA%B8%80%EC%9E%90%EC%86%8C%EB%B6%84%EB%A6%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pearson VUE</title>
+      <link>https://zellyshu.github.io/tags/pearson-vue/</link>
+      <pubDate>Sat, 30 Oct 2021 10:20:28 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/pearson-vue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tableau</title>
+      <link>https://zellyshu.github.io/tags/tableau/</link>
+      <pubDate>Sat, 30 Oct 2021 10:20:28 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/tableau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tableau Desktop Specialist</title>
+      <link>https://zellyshu.github.io/tags/tableau-desktop-specialist/</link>
+      <pubDate>Sat, 30 Oct 2021 10:20:28 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/tableau-desktop-specialist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amundsen</title>
+      <link>https://zellyshu.github.io/tags/amundsen/</link>
+      <pubDate>Tue, 19 Oct 2021 16:38:57 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/amundsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://zellyshu.github.io/tags/data/</link>
+      <pubDate>Tue, 19 Oct 2021 16:38:57 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://zellyshu.github.io/tags/docker/</link>
+      <pubDate>Tue, 19 Oct 2021 16:38:57 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenVSCode</title>
+      <link>https://zellyshu.github.io/tags/openvscode/</link>
+      <pubDate>Tue, 12 Oct 2021 15:32:51 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/openvscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>https://zellyshu.github.io/tags/database/</link>
+      <pubDate>Wed, 29 Sep 2021 15:41:07 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MariaDB</title>
+      <link>https://zellyshu.github.io/tags/mariadb/</link>
+      <pubDate>Wed, 29 Sep 2021 15:41:07 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/mariadb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://zellyshu.github.io/tags/postgresql/</link>
+      <pubDate>Wed, 29 Sep 2021 15:41:07 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache-Superset</title>
+      <link>https://zellyshu.github.io/tags/apache-superset/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/apache-superset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Visualization</title>
+      <link>https://zellyshu.github.io/tags/data-visualization/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenSource</title>
+      <link>https://zellyshu.github.io/tags/opensource/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://zellyshu.github.io/tags/ubuntu/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WSL2</title>
+      <link>https://zellyshu.github.io/tags/wsl2/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/wsl2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://zellyshu.github.io/tags/python/</link>
+      <pubDate>Tue, 14 Sep 2021 10:42:13 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TabPy</title>
+      <link>https://zellyshu.github.io/tags/tabpy/</link>
+      <pubDate>Tue, 14 Sep 2021 10:42:13 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/tabpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CentOS7</title>
+      <link>https://zellyshu.github.io/tags/centos7/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/centos7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>https://zellyshu.github.io/tags/flask/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gunicorn</title>
+      <link>https://zellyshu.github.io/tags/gunicorn/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/gunicorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konlpy</title>
+      <link>https://zellyshu.github.io/tags/konlpy/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/konlpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://zellyshu.github.io/tags/nginx/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OracleCloud</title>
+      <link>https://zellyshu.github.io/tags/oraclecloud/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/oraclecloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://zellyshu.github.io/tags/cloud/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>https://zellyshu.github.io/tags/ibm/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FastAPI</title>
+      <link>https://zellyshu.github.io/tags/fastapi/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/fastapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle</title>
+      <link>https://zellyshu.github.io/tags/oracle/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thunderbird</title>
+      <link>https://zellyshu.github.io/tags/thunderbird/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/thunderbird/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apache-Superset on ZS Log</title>
+    <link>https://zellyshu.github.io/tags/apache-superset/</link>
+    <description>Recent content in Apache-Superset on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 23 Sep 2021 11:18:21 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/apache-superset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WSL2 (Win10) Ubuntu20.04에서 Docker Desktop 설치하고 Apache Superset 테스트해보기</title>
+      <link>https://zellyshu.github.io/posts/2021-09-23-docker-apache-superset-installation/</link>
+      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-09-23-docker-apache-superset-installation/</guid>
+      <description>Intro WSL2를 통해 Ubuntu를 설치한 뒤 Windows 환경이라는 제약하에 못해 본 것들을 하나 둘 해보던 와중 Apache Superset이라는 오픈소스 시각화 BI툴을 설치하지 못했던 기억이 났다. Mac이나 Linux에서밖에 설치할 수 없어 Windows 환경에서는 VM 등의 가상머신을 이용할 수밖에 없었던 것으로 기억하고 있으나, WSL2의 지원 이후 Docker를 통해 설치가 가능하다는 것을 알게 되었다. 어차피 Docker도 설치해볼 겸 겸사겸사 Docker Desktop의 설치와 Apache Superset의 설치를 진행하게 되었다.
+Docker 유료화 관련 정책으로 요근래 다시 시끌시끌해진 Docker를 오랜만에 다시 설치해보았다.</description>
+    </item>
+    
+  </channel>
+</rss>

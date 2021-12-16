@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Amundsen on ZS Log</title>
+    <link>https://zellyshu.github.io/categories/amundsen/</link>
+    <description>Recent content in Amundsen on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Oct 2021 16:38:57 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/categories/amundsen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amundsen을 Docker에 설치해보기</title>
+      <link>https://zellyshu.github.io/posts/2021-10-19-docker-amundsen-installation/</link>
+      <pubDate>Tue, 19 Oct 2021 16:38:57 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-10-19-docker-amundsen-installation/</guid>
+      <description>Intro RSS 구독을 통하여 다양한 기술 블로그 및 회사들의 글을 읽으며 아침 일과를 시작하는 편이다. 그러던 중, 뱅크샐러드 기술 블로그에서 &#39;# 뱅크샐러드 Data Discovery Platform의 시작&#39; 이라는 글을 읽게 되었는데 갑자기 흥미가 생겨서 데이터 디스커버리 툴에 대하여 찾아보게 되었다.
+Data Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐색을 돕는 툴로서 여러 소스에서 데이터를 수집 및 결합하고 데이터의 패턴과 추세를 식별하는 데 도움이 되는 도구를 의미한다. BI 툴에서 많이 찾아볼 수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>

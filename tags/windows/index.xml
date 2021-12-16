@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Windows on ZS Log</title>
+    <link>https://zellyshu.github.io/tags/windows/</link>
+    <description>Recent content in Windows on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Dec 2021 15:44:35 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>사용하는 툴 &amp; 프로그램 정리</title>
+      <link>https://zellyshu.github.io/posts/2021-12-15-tool/</link>
+      <pubDate>Wed, 15 Dec 2021 15:44:35 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-12-15-tool/</guid>
+      <description>Intro 연말을 맞이하여 업무 및 일상에 있어 어떠한 툴과 프로그램들을 사용하고 있는지 현황을 파악해보아야겠다는 생각이 갑자기 들었다. 특히 올해는 생산성 향상이라는 방향에 있어 Product Hunt 및 뉴스레터 등에서 본 많은 툴들을 설치하고 제거하고를 수 없이 반복했기에 이걸 1년마다 최신화를 시킨다면 나중에 보았을 때도 괜찮은 자료로 남지 않을까 싶었다. 간단하게 테이블 형태로 정리해보니 생각보다 많은 양에 놀랐다. 혹여나 누군가에게 도움이 된다면 좋겠다는 생각에 정리 사항을 남겨본다.
+2021.12.15 기준    목적 Tool     프로젝트 관리 Notion -&amp;gt; Clickup   메일 클라이언트 Mozilla Thunderbird   Web Browser (업무) Chrome   Web Browser (개인) Firefox   Password Manager Bitwarden Premium   DB DBeaver   API Postman   Markdown Typora (유료화로 인하여 변경) -&amp;gt; Mark Text   SSH Putty -&amp;gt; MobaXterm   SCP WinSCP -&amp;gt; MobaXterm   Image Viewer 꿀뷰   영상편집 뱁믹스   압축파일 반디집   데이터 시각화 Tableau   Cloud Oracle, GCP   Python Coding IDE Pycharm   그 외 Coding IDE VSCode   개인 아카이브 Obsidian   생각 정리 Logseq   Workflow (mac OS) Alfred 4   Workflow (Win) Wox -&amp;gt; Fluent-Search   Clipboard Ditto   파일 및 폴더 검색 Everything   RSS Slack, Feedly   창 분할 (mac OS) Magnet   창 분할 (Win) PowerToys   VPN FortiClient VPN Only   노트 UpNote (Premium)   Font Pretendard   개인 일정 (여행 등) KanbanFlow   일정관리 (Phone) Calendars 5    보류    목적 Tool 보류 이유     프로젝트 관리 JetBrains Space 창이 두 개가 켜지지 않고, 스프린트 기반의 관리가 익숙해지지 않아서    </description>
+    </item>
+    
+    <item>
+      <title>macOS에서 작성한 Logseq 내용이 Windows 환경에서 보이지 않을 때 (한글자소분리 이슈)</title>
+      <link>https://zellyshu.github.io/posts/2021-11-12-logseq-hanguljaso/</link>
+      <pubDate>Fri, 12 Nov 2021 15:44:05 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-11-12-logseq-hanguljaso/</guid>
+      <description>Intro 최근 Logseq와 Obsidian을 같이 활용하여 생각을 정리해보고자 하고 있다. 회사에서는 Windows를 사용하지만, 평상시에는 mac OS 및 Apple 생태계의 기기들을 주로 사용하는 나에게 있어 크로스 플랫폼은 필수적인 요소인데 이를 만족하는 것이 Obsidian이었다. 최근 모바일 앱도 나와서 쏠쏠하게 사용 중에 있는데, 이를 활용하여 Logseq + Obsidian 함께 활용하기를 보고 Logseq를 통해서도 정리해보고자 마음을 먹게 된 것이다.
+그런데 글이 안보인다&amp;hellip;? icloud를 통하여 동기화시켜서 mac 환경과 windows 환경에서 모두 사용할 수 있게끔 세팅을 마쳤다.</description>
+    </item>
+    
+  </channel>
+</rss>

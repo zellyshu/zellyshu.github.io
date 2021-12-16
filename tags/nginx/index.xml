@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on ZS Log</title>
+    <link>https://zellyshu.github.io/tags/nginx/</link>
+    <description>Recent content in Nginx on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CentOS 7 &#43; Flask &#43; gunicorn &#43; Nginx 조합으로 Oracle Cloud에서 돌아가는 서비스 만들어보기</title>
+      <link>https://zellyshu.github.io/posts/2021-06-01-flakonlpy/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-06-01-flakonlpy/</guid>
+      <description>Intro 본 포스팅은 Python의 한국어 형태소 분석 라이브러리인 konlpy를 활용하여 CentOS 7 + Flask + gunicorn + Nginx 조합으로 웹 애플리케이션 서비스를 만들어본 토이 프로젝트 개발기다. 개발된 서비스는 링크(클릭)를 통하여 이동하면 사용할 수 있으나, 이용자에게 제공되는 완전하고 안정된 형태의 서비스라기보다 Oracle Cloud의 무료 티어를 활용해보기 위한 테스트 목적이 강하므로 이 점을 인지하여 준다면 감사할 것 같다. (갑자기 다운되거나 오류 발생 확률 매우매우매우 높음ㅠㅠ)
+왜 만들었나? 취직하여 일을 시작한 지 얼마 되지 않았을 무렵, 사내 팀에서 AWS를 사용하고 있어 자연스레 클라우드 환경에 관심이 많아진 상태였다.</description>
+    </item>
+    
+  </channel>
+</rss>

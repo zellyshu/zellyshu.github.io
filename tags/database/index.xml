@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Database on ZS Log</title>
+    <link>https://zellyshu.github.io/tags/database/</link>
+    <description>Recent content in Database on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 29 Sep 2021 15:41:07 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heroku를 통한 무료 MariaDB &amp; PostgreSQL 저장소 만들기</title>
+      <link>https://zellyshu.github.io/posts/2021-09-29-heroku-mariadb-postgresql/</link>
+      <pubDate>Wed, 29 Sep 2021 15:41:07 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-09-29-heroku-mariadb-postgresql/</guid>
+      <description>Intro 토이 프로젝트를 진행할 때 테스트 용도로 DB를 불러올 일이 종종 생겼다. 토이 프로젝트이기 때문에 정말 기본만 간단하게 구성된 DB와 연결해 몇가지 테스트만 해보면 될 상황에도 그 때 그 때 DB를 만들고 하는 건 여간 귀찮은 일이 아니었다. 그래서 최대한 무료 범위 내에서 해결하고자 알아보았고, Heroku로도 테스트 목적에는 손색이 없을 것이라 생각하여 바로 실행에 옮겼다.
+DB 생성 신용카드를 등록해두면, 월 1000시간 / 500 MB 제한으로 무료 사용할 수 있다. 또한, MariaDB만 하나 구축해두려다가 PostgreSQL도 하나 더 구축해두었다.</description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL 설치 테스트 (Ubuntu 20.04, WSL2)</title>
+      <link>https://zellyshu.github.io/posts/2021-04-02-postgresql-install-test/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-04-02-postgresql-install-test/</guid>
+      <description>Intro MySQL, Oracle, MSSQL 등의 DB는 접해보았으나 PostgreSQL은 이야기만 들어보고 실제 사용해 본 경험은 없어서 설치하고, 테스트 목적의 테이블을 생성하고, DB를 삽입하여 조회해보는 작업을 해보았다.
+PostgreSQL은 오픈 소스 객체-관계형 데이터베이스 관리 시스템(ORDBMS) 이다. 평소 관심만 가지고 있다가 추후 토이 프로젝트 시 DB를 선택할 때 PostgreSQL을 도입해보고 싶다는 막연한 생각에 맨땅에 헤딩하듯이 설치 테스르를 진행한 것이다.
+DB에 조예가 깊지 않아 설치하고, 잘 돌아가는지 정도의 레벨로 테스트를 진행하였고 관련 내용을 간략하게 정리한 것임을 미리 알린다.</description>
+    </item>
+    
+  </channel>
+</rss>
