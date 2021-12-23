@@ -71,6 +71,20 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>OpenVSCode Server를 Docker에 설치해보기
+</h2>
+</header>
+<section class=entry-content>
+<p>Intro OpenVSCode Server를 띄워두고 태블릿 PC등으로 외부접속하면 테스트 목적으로 간단하게 사용할 수 있지 않을까? 라는 생각이 갑자기 들어 Docker 환경에서 우선 설치해보기로 하였다.
+OpenVSCode Server란? OpenVSCode Server란 원격 컴퓨터에서 서버를 실행하고, 웹 브라우저를 통해 접근할 수 있는 VSCode 버전을 제공하는 것으로, Micorsoft사에서 오픈소스 프로젝트로 개발하고 있다.
+Installation 설치는 Docker나 Linux 환경에서 설치 가능하며, Docker 환경에서 설치를 진행하였다. 사실 명령어 하나만 입력하면 설치가 진행되므로, 오류가 안나기만을 간절히 기도하였다…
+docker run -it --init -p 3000:3000 -v "$(pwd):/home/workspace:cached" gitpod/openvscode-server 설치 및 설정이 완료되면 3000번 포트를 통해 접속할 수 있다....</p>
+</section>
+<footer class=entry-footer><span title="2021-10-12 15:32:51 +0000 UTC">October 12, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to OpenVSCode Server를 Docker에 설치해보기" href=https://zellyshu.github.io/posts/2021-10-12-openvscode-server-docker/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Heroku를 통한 무료 MariaDB & PostgreSQL 저장소 만들기
 </h2>
 </header>
@@ -116,18 +130,6 @@ Tabpy 하지만, Tableau 프로그램에서 자체적으로 지원하는 분석 
 </section>
 <footer class=entry-footer><span title="2021-06-01 00:00:00 +0000 UTC">June 1, 2021</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to CentOS 7 + Flask + gunicorn + Nginx 조합으로 Oracle Cloud에서 돌아가는 서비스 만들어보기" href=https://zellyshu.github.io/posts/2021-06-01-flakonlpy/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>IBM Cloud 가입부터 간단한 설정까지
-</h2>
-</header>
-<section class=entry-content>
-<p>Intro 본 포스팅은 이전 Oracle Cloud 가입과 간단한 설정에 관하여 작성했던 포스트의 IBM 버전이다. IBM Cloud의 가입과 Free Tier인 Lite 계정에서 클라우드 초심자가 개발 환경을 설정해 본 경험을 (= 미래의 내가 잊어먹지 않도록 정리해둔 것을) 다룬 것이다. 나와 같은 분들과 IBM Cloud를 처음 사용하시는 분들께 조금이나마 참고 자료로서 도움이 되었으면 하는 마음에 글을 작성하였다.
-IBM Cloud란? IBM Cloud는 어디선가 한 번쯤은 들어봤을 IBM사에서 운영하는 Cloud Flatform으로, 현재 무료 티어인 Lite 계정을 지원하고 있다....</p>
-</section>
-<footer class=entry-footer><span title="2021-04-15 00:00:00 +0000 UTC">April 15, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to IBM Cloud 가입부터 간단한 설정까지" href=https://zellyshu.github.io/posts/2021-04-15-ibm-cloud/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

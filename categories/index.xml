@@ -9,7 +9,16 @@
       <link>https://zellyshu.github.io/cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Dec 2021 15:44:35 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 14:39:01 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tableau</title>
+      <link>https://zellyshu.github.io/categories/tableau/</link>
+      <pubDate>Thu, 23 Dec 2021 14:39:01 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/categories/tableau/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Tool</title>
       <link>https://zellyshu.github.io/categories/tool/</link>
@@ -34,15 +43,6 @@
       <pubDate>Fri, 12 Nov 2021 15:44:05 +0000</pubDate>
       
       <guid>https://zellyshu.github.io/categories/%ED%95%9C%EA%B8%80%EC%9E%90%EC%86%8C%EB%B6%84%EB%A6%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tableau</title>
-      <link>https://zellyshu.github.io/categories/tableau/</link>
-      <pubDate>Sat, 30 Oct 2021 10:20:28 +0000</pubDate>
-      
-      <guid>https://zellyshu.github.io/categories/tableau/</guid>
       <description></description>
     </item>
     

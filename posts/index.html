@@ -73,6 +73,21 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Tableau Log4j 보안 이슈 대응 및 해결방안 정리
+</h2>
+</header>
+<section class=entry-content>
+<p>Intro 최근 발생한 Log4j 보안 취약점 사태로 인하여 시끌시끌한 가운데, Tableau에서도 Log4j 보안 취약점에 대한 대응방안을 내놓았다. 따라서 이와 관련된 내용을 정리하고, 실제 업데이트를 해본 사항을 기록해둔다.
+Tableau에서의 Log4j Log4j Apache 라이브러리를 사용하는 Tableau 제품은 보안 취약점을 가지고 있으며, 이에 영향을 받는 제품들은 Log4j 보안 취약점 이슈가 해결된 패치 버전으로 업그레이드하거나, jndilookup.class를 삭제하여야 한다.
+https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell
+이슈 대응방안
+Log4j 보안 취약점 이슈가 해결된 패치 버전으로 업그레이드 jndilookup....</p>
+</section>
+<footer class=entry-footer><span title="2021-12-23 14:39:01 +0000 UTC">December 23, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Tableau Log4j 보안 이슈 대응 및 해결방안 정리" href=https://zellyshu.github.io/posts/2021-12-23-tableau-log4j-issue/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>사용하는 툴 & 프로그램 정리
 </h2>
 </header>
@@ -118,20 +133,6 @@ Data Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐�
 </section>
 <footer class=entry-footer><span title="2021-10-19 16:38:57 +0000 UTC">October 19, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Amundsen을 Docker에 설치해보기" href=https://zellyshu.github.io/posts/2021-10-19-docker-amundsen-installation/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>OpenVSCode Server를 Docker에 설치해보기
-</h2>
-</header>
-<section class=entry-content>
-<p>Intro OpenVSCode Server를 띄워두고 태블릿 PC등으로 외부접속하면 테스트 목적으로 간단하게 사용할 수 있지 않을까? 라는 생각이 갑자기 들어 Docker 환경에서 우선 설치해보기로 하였다.
-OpenVSCode Server란? OpenVSCode Server란 원격 컴퓨터에서 서버를 실행하고, 웹 브라우저를 통해 접근할 수 있는 VSCode 버전을 제공하는 것으로, Micorsoft사에서 오픈소스 프로젝트로 개발하고 있다.
-Installation 설치는 Docker나 Linux 환경에서 설치 가능하며, Docker 환경에서 설치를 진행하였다. 사실 명령어 하나만 입력하면 설치가 진행되므로, 오류가 안나기만을 간절히 기도하였다…
-docker run -it --init -p 3000:3000 -v "$(pwd):/home/workspace:cached" gitpod/openvscode-server 설치 및 설정이 완료되면 3000번 포트를 통해 접속할 수 있다....</p>
-</section>
-<footer class=entry-footer><span title="2021-10-12 15:32:51 +0000 UTC">October 12, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to OpenVSCode Server를 Docker에 설치해보기" href=https://zellyshu.github.io/posts/2021-10-12-openvscode-server-docker/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

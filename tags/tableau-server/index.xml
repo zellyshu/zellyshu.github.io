@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tableau Server on ZS Log</title>
+    <link>https://zellyshu.github.io/tags/tableau-server/</link>
+    <description>Recent content in Tableau Server on ZS Log</description>
+    <image>
+      <url>https://zellyshu.github.io/cover.png</url>
+      <link>https://zellyshu.github.io/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 23 Dec 2021 14:39:01 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/tableau-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tableau Log4j 보안 이슈 대응 및 해결방안 정리</title>
+      <link>https://zellyshu.github.io/posts/2021-12-23-tableau-log4j-issue/</link>
+      <pubDate>Thu, 23 Dec 2021 14:39:01 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2021-12-23-tableau-log4j-issue/</guid>
+      <description>Intro 최근 발생한 Log4j 보안 취약점 사태로 인하여 시끌시끌한 가운데, Tableau에서도 Log4j 보안 취약점에 대한 대응방안을 내놓았다. 따라서 이와 관련된 내용을 정리하고, 실제 업데이트를 해본 사항을 기록해둔다.
+ Tableau에서의 Log4j Log4j Apache 라이브러리를 사용하는 Tableau 제품은 보안 취약점을 가지고 있으며, 이에 영향을 받는 제품들은 Log4j 보안 취약점 이슈가 해결된 패치 버전으로 업그레이드하거나, jndilookup.class를 삭제하여야 한다.
+ https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell
+  이슈 대응방안
+ Log4j 보안 취약점 이슈가 해결된 패치 버전으로 업그레이드 jndilookup.</description>
+    </item>
+    
+  </channel>
+</rss>
