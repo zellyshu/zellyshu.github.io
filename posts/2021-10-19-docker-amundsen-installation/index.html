@@ -21,7 +21,7 @@ Data Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐�
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript>
+</noscript><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/styles/monokai.min.css integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin=anonymous referrerpolicy=no-referrer>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-183828759-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="Amundsen을 Docker에 설치해보기">
 <meta property="og:description" content="Intro RSS 구독을 통하여 다양한 기술 블로그 및 회사들의 글을 읽으며 아침 일과를 시작하는 편이다. 그러던 중, 뱅크샐러드 기술 블로그에서 '# 뱅크샐러드 Data Discovery Platform의 시작' 이라는 글을 읽게 되었는데 갑자기 흥미가 생겨서 데이터 디스커버리 툴에 대하여 찾아보게 되었다.
 Data Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐색을 돕는 툴로서 여러 소스에서 데이터를 수집 및 결합하고 데이터의 패턴과 추세를 식별하는 데 도움이 되는 도구를 의미한다. BI 툴에서 많이 찾아볼 수 있다.">
@@ -35,7 +35,7 @@ Data Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐�
 <meta name=twitter:description content="Intro RSS 구독을 통하여 다양한 기술 블로그 및 회사들의 글을 읽으며 아침 일과를 시작하는 편이다. 그러던 중, 뱅크샐러드 기술 블로그에서 '# 뱅크샐러드 Data Discovery Platform의 시작' 이라는 글을 읽게 되었는데 갑자기 흥미가 생겨서 데이터 디스커버리 툴에 대하여 찾아보게 되었다.
 Data Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐색을 돕는 툴로서 여러 소스에서 데이터를 수집 및 결합하고 데이터의 패턴과 추세를 식별하는 데 도움이 되는 도구를 의미한다. BI 툴에서 많이 찾아볼 수 있다.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://zellyshu.github.io/posts/"},{"@type":"ListItem","position":2,"name":"Amundsen을 Docker에 설치해보기","item":"https://zellyshu.github.io/posts/2021-10-19-docker-amundsen-installation/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Amundsen을 Docker에 설치해보기","name":"Amundsen을 Docker에 설치해보기","description":"Intro RSS 구독을 통하여 다양한 기술 블로그 및 회사들의 글을 읽으며 아침 일과를 시작하는 편이다. 그러던 중, 뱅크샐러드 기술 블로그에서 '# 뱅크샐러드 Data Discovery Platform의 시작' 이라는 글을 읽게 되었는데 갑자기 흥미가 생겨서 데이터 디스커버리 툴에 대하여 찾아보게 되었다.\nData Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐색을 돕는 툴로서 여러 소스에서 데이터를 수집 및 결합하고 데이터의 패턴과 추세를 식별하는 데 도움이 되는 도구를 의미한다. BI 툴에서 많이 찾아볼 수 있다.","keywords":["Amundsen","Data","Docker"],"articleBody":"Intro RSS 구독을 통하여 다양한 기술 블로그 및 회사들의 글을 읽으며 아침 일과를 시작하는 편이다. 그러던 중, 뱅크샐러드 기술 블로그에서 '# 뱅크샐러드 Data Discovery Platform의 시작' 이라는 글을 읽게 되었는데 갑자기 흥미가 생겨서 데이터 디스커버리 툴에 대하여 찾아보게 되었다.\nData Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐색을 돕는 툴로서 여러 소스에서 데이터를 수집 및 결합하고 데이터의 패턴과 추세를 식별하는 데 도움이 되는 도구를 의미한다. BI 툴에서 많이 찾아볼 수 있다. 특히, 데이터를 다루는 많은 회사들이 Data Discovery Tool들을 사용하고 있으며, Linkedin의 Data Hub, Netflix의 Metacat, Lyft의 Amundsen 등 오픈소스로 제공하는 회사들도 많다.\nAmundsen 처음에는 Linkedin의 Data Hub를 간단하게 설치해보려 했으나, 베이글코드라는 회사에서 사용하는 사내 디스커버리 툴인 Amundsen을 어떻게 도입하게 되었는지를 다루는 # Data Discovery Platform at Bagelcode 라는 글을 읽게 되면서 Python 기반으로 이루어진 Amundsen을 설치해보자 라는 생각이 더 강해지게 되었다. (구글 검색을 했을 때, DataHub에 관한 자료탐색 시 DataHub라는 이름이 어떻게 보면 너무 흔한 이름이다 보니 Linkedin의 DataHub라는 툴에 대한 내용이 찾기 어려웠던 점은 덤)\nInstallation 설치 선행 조건은 다음과 같다.\n  Python = 3.6 or 3.7 Node = v10 or v12 (v14 may have compatibility issues) npm = 6   설치 방법은 Docker로 설치하면 되는데, Backend를 Neo4j로 하느냐, Atlas로 하느냐에 따라 2가지로 나뉘게 된다.\n 적어도 3GB의 Docker 여유 용량이 있는지 확인할 것 Git Clone 1  $ git clone --recursive https://github.com/amundsen-io/amundsen.git   ``\n Backend 선택 1 2 3 4 5  # For Neo4j Backend $ docker-compose -f docker-amundsen.yml up # For Atlas $ docker-compose -f docker-amundsen-atlas.yml up   ``\n Sample data 설치 1 2 3 4 5 6  $ python3 -m venv venv $ source venv/bin/activate $ pip3 install --upgrade pip $ pip3 install -r requirements.txt $ python3 setup.py install $ python3 example/scripts/sample_data_loader.py   ``\n http://localhost:5000 접속  test 검색 후 결과 확인  검색해보면, 하단의 이미지와 같이 나오게 된다. 설치 중 에러 발생했던 내용 정리 ERROR: Service ‘amundsenfrontend’ failed to build : Build failed ~  Atlas를 통한 설치 시에 발생한 에러. 권한 관련 이슈로 보이는데 결국 잡지 못하고 neo4j를 통한 설치 방법으로 우회  error in amundsen-databuilder setup command: ‘extras_require’ must be a dictionary whose values are strings or lists of strings containing valid project/version requirement specifiers.  github 내 Issue에 관련 사항이 있었음. amundsen\\databuilder 폴더 내의 requirements-dev.txt 의 내용을 amunsen 폴더의 requirements-dev.txt의 내용으로 변경하면 된다. 확인해보니 경로 관련 이슈가 있었던 것으로 보인다. 참고 : https://github.com/amundsen-io/amundsen/issues/1447  후기 설치 과정은 중간에 에러만 발생하지 않았다면, 상당히 쉬운 편이었다. 앞으로는 Amundsen을 활용하여 여기저기 내 컴퓨터 및 클라우드에 흩어져 있는 데이터를 효율적으로, 체계적으로 관리해보려 노력해야겠다.\nReference  https://blog.banksalad.com/tech/the-starting-of-datadiscoveryplatform-era-in-banksalad/ https://medium.com/bagelcode/data-discovery-platform-at-bagelcode-b58a622d17fd https://github.com/amundsen-io/amundsen/ https://www.softwareadvice.com/bi/data-discovery-tools-comparison/  ","wordCount":"401","inLanguage":"en","datePublished":"2021-10-19T16:38:57Z","dateModified":"2021-10-19T16:38:57Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://zellyshu.github.io/posts/2021-10-19-docker-amundsen-installation/"},"publisher":{"@type":"Organization","name":"ZS Log","logo":{"@type":"ImageObject","url":"https://zellyshu.github.io/favicon.png"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Amundsen을 Docker에 설치해보기","name":"Amundsen을 Docker에 설치해보기","description":"Intro RSS 구독을 통하여 다양한 기술 블로그 및 회사들의 글을 읽으며 아침 일과를 시작하는 편이다. 그러던 중, 뱅크샐러드 기술 블로그에서 '# 뱅크샐러드 Data Discovery Platform의 시작' 이라는 글을 읽게 되었는데 갑자기 흥미가 생겨서 데이터 디스커버리 툴에 대하여 찾아보게 되었다.\nData Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐색을 돕는 툴로서 여러 소스에서 데이터를 수집 및 결합하고 데이터의 패턴과 추세를 식별하는 데 도움이 되는 도구를 의미한다. BI 툴에서 많이 찾아볼 수 있다.","keywords":["Amundsen","Data","Docker"],"articleBody":"Intro RSS 구독을 통하여 다양한 기술 블로그 및 회사들의 글을 읽으며 아침 일과를 시작하는 편이다. 그러던 중, 뱅크샐러드 기술 블로그에서 '# 뱅크샐러드 Data Discovery Platform의 시작' 이라는 글을 읽게 되었는데 갑자기 흥미가 생겨서 데이터 디스커버리 툴에 대하여 찾아보게 되었다.\nData Discovery Tool? Data Discovery Tool이란, 말 그대로 데이터의 탐색을 돕는 툴로서 여러 소스에서 데이터를 수집 및 결합하고 데이터의 패턴과 추세를 식별하는 데 도움이 되는 도구를 의미한다. BI 툴에서 많이 찾아볼 수 있다. 특히, 데이터를 다루는 많은 회사들이 Data Discovery Tool들을 사용하고 있으며, Linkedin의 Data Hub, Netflix의 Metacat, Lyft의 Amundsen 등 오픈소스로 제공하는 회사들도 많다.\nAmundsen 처음에는 Linkedin의 Data Hub를 간단하게 설치해보려 했으나, 베이글코드라는 회사에서 사용하는 사내 디스커버리 툴인 Amundsen을 어떻게 도입하게 되었는지를 다루는 # Data Discovery Platform at Bagelcode 라는 글을 읽게 되면서 Python 기반으로 이루어진 Amundsen을 설치해보자 라는 생각이 더 강해지게 되었다. (구글 검색을 했을 때, DataHub에 관한 자료탐색 시 DataHub라는 이름이 어떻게 보면 너무 흔한 이름이다 보니 Linkedin의 DataHub라는 툴에 대한 내용이 찾기 어려웠던 점은 덤)\nInstallation 설치 선행 조건은 다음과 같다.\n  Python = 3.6 or 3.7 Node = v10 or v12 (v14 may have compatibility issues) npm = 6   설치 방법은 Docker로 설치하면 되는데, Backend를 Neo4j로 하느냐, Atlas로 하느냐에 따라 2가지로 나뉘게 된다.\n 적어도 3GB의 Docker 여유 용량이 있는지 확인할 것 Git Clone $ git clone --recursive https://github.com/amundsen-io/amundsen.git ``\n Backend 선택 # For Neo4j Backend $ docker-compose -f docker-amundsen.yml up # For Atlas $ docker-compose -f docker-amundsen-atlas.yml up ``\n Sample data 설치 $ python3 -m venv venv $ source venv/bin/activate $ pip3 install --upgrade pip $ pip3 install -r requirements.txt $ python3 setup.py install $ python3 example/scripts/sample_data_loader.py ``\n http://localhost:5000 접속  test 검색 후 결과 확인  검색해보면, 하단의 이미지와 같이 나오게 된다. 설치 중 에러 발생했던 내용 정리 ERROR: Service ‘amundsenfrontend’ failed to build : Build failed ~  Atlas를 통한 설치 시에 발생한 에러. 권한 관련 이슈로 보이는데 결국 잡지 못하고 neo4j를 통한 설치 방법으로 우회  error in amundsen-databuilder setup command: ‘extras_require’ must be a dictionary whose values are strings or lists of strings containing valid project/version requirement specifiers.  github 내 Issue에 관련 사항이 있었음. amundsen\\databuilder 폴더 내의 requirements-dev.txt 의 내용을 amunsen 폴더의 requirements-dev.txt의 내용으로 변경하면 된다. 확인해보니 경로 관련 이슈가 있었던 것으로 보인다. 참고 : https://github.com/amundsen-io/amundsen/issues/1447  후기 설치 과정은 중간에 에러만 발생하지 않았다면, 상당히 쉬운 편이었다. 앞으로는 Amundsen을 활용하여 여기저기 내 컴퓨터 및 클라우드에 흩어져 있는 데이터를 효율적으로, 체계적으로 관리해보려 노력해야겠다.\nReference  https://blog.banksalad.com/tech/the-starting-of-datadiscoveryplatform-era-in-banksalad/ https://medium.com/bagelcode/data-discovery-platform-at-bagelcode-b58a622d17fd https://github.com/amundsen-io/amundsen/ https://www.softwareadvice.com/bi/data-discovery-tools-comparison/  ","wordCount":"389","inLanguage":"en","datePublished":"2021-10-19T16:38:57Z","dateModified":"2021-10-19T16:38:57Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://zellyshu.github.io/posts/2021-10-19-docker-amundsen-installation/"},"publisher":{"@type":"Organization","name":"ZS Log","logo":{"@type":"ImageObject","url":"https://zellyshu.github.io/favicon.png"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -131,55 +131,25 @@ Amundsen을 Docker에 설치해보기
 <ol>
 <li>적어도 3GB의 Docker 여유 용량이 있는지 확인할 것</li>
 <li>Git Clone
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>	$ git clone --recursive https://github.com/amundsen-io/amundsen.git
-</code></pre></td></tr></table>
-</div>
-</div><p>``</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>	$ git clone --recursive https://github.com/amundsen-io/amundsen.git
+</code></pre></div><p>``</p>
 </li>
 <li>Backend 선택
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span><span class=lnt>4
-</span><span class=lnt>5
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>	<span class=c1># For Neo4j Backend</span>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>	<span class=c1># For Neo4j Backend</span>
 	$ docker-compose -f docker-amundsen.yml up
 
 	<span class=c1># For Atlas</span>
 	$ docker-compose -f docker-amundsen-atlas.yml up
-</code></pre></td></tr></table>
-</div>
-</div><p>``</p>
+</code></pre></div><p>``</p>
 </li>
 <li>Sample data 설치
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span><span class=lnt>4
-</span><span class=lnt>5
-</span><span class=lnt>6
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>     $ python3 -m venv venv
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>     $ python3 -m venv venv
      $ <span class=nb>source</span> venv/bin/activate
      $ pip3 install --upgrade pip
      $ pip3 install -r requirements.txt
      $ python3 setup.py install
      $ python3 example/scripts/sample_data_loader.py
-</code></pre></td></tr></table>
-</div>
-</div><p>``</p>
+</code></pre></div><p>``</p>
 </li>
 <li>http://localhost:5000 접속
 <img loading=lazy src=/img/2021-10-19-docker-amundsen-installation05.png alt=2021-10-19-docker-amundsen-installation05>
