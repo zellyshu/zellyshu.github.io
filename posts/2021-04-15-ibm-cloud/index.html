@@ -36,7 +36,7 @@ IBM Cloud란? IBM Cloud는 어디선가 한 번쯤은 들어봤을 IBM사에서 
 <meta name=twitter:description content="Intro 본 포스팅은 이전 Oracle Cloud 가입과 간단한 설정에 관하여 작성했던 포스트의 IBM 버전이다. IBM Cloud의 가입과 Free Tier인 Lite 계정에서 클라우드 초심자가 개발 환경을 설정해 본 경험을 (= 미래의 내가 잊어먹지 않도록 정리해둔 것을) 다룬 것이다. 나와 같은 분들과 IBM Cloud를 처음 사용하시는 분들께 조금이나마 참고 자료로서 도움이 되었으면 하는 마음에 글을 작성하였다.
 IBM Cloud란? IBM Cloud는 어디선가 한 번쯤은 들어봤을 IBM사에서 운영하는 Cloud Flatform으로, 현재 무료 티어인 Lite 계정을 지원하고 있다.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://zellyshu.github.io/posts/"},{"@type":"ListItem","position":2,"name":"IBM Cloud 가입부터 간단한 설정까지","item":"https://zellyshu.github.io/posts/2021-04-15-ibm-cloud/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"IBM Cloud 가입부터 간단한 설정까지","name":"IBM Cloud 가입부터 간단한 설정까지","description":"Intro 본 포스팅은 이전 Oracle Cloud 가입과 간단한 설정에 관하여 작성했던 포스트의 IBM 버전이다. IBM Cloud의 가입과 Free Tier인 Lite 계정에서 클라우드 초심자가 개발 환경을 설정해 본 경험을 (= 미래의 내가 잊어먹지 않도록 정리해둔 것을) 다룬 것이다. 나와 같은 분들과 IBM Cloud를 처음 사용하시는 분들께 조금이나마 참고 자료로서 도움이 되었으면 하는 마음에 글을 작성하였다.\nIBM Cloud란? IBM Cloud는 어디선가 한 번쯤은 들어봤을 IBM사에서 운영하는 Cloud Flatform으로, 현재 무료 티어인 Lite 계정을 지원하고 있다.","keywords":["IBM","Cloud"],"articleBody":"Intro 본 포스팅은 이전 Oracle Cloud 가입과 간단한 설정에 관하여 작성했던 포스트의 IBM 버전이다. IBM Cloud의 가입과 Free Tier인 Lite 계정에서 클라우드 초심자가 개발 환경을 설정해 본 경험을 (= 미래의 내가 잊어먹지 않도록 정리해둔 것을) 다룬 것이다. 나와 같은 분들과 IBM Cloud를 처음 사용하시는 분들께 조금이나마 참고 자료로서 도움이 되었으면 하는 마음에 글을 작성하였다.\nIBM Cloud란? IBM Cloud는 어디선가 한 번쯤은 들어봤을 IBM사에서 운영하는 Cloud Flatform으로, 현재 무료 티어인 Lite 계정을 지원하고 있다. 특히 무료 티어에서도 2GB의 데이터 스토리지, 1 vCPU 제공 등 무료임에도 준수한 서비스들을 제공하고 있다는 것이 특징이다. 또한, Free Tier인 Lite 계정의 경우 기간 제한이 없고, 신용 카드 정보도 필요하지 않다는 점을 내세우고 있다.\n가입 가입은 과정을 따라 진행하면 되며, 메일로 code를 인증하면 계정 생성이 완료된다.\n로그인하게 되면 여타 클라우드 서비스와 마찬가지로 대시보드 화면을 마주할 수 있게 된다.\n설정 및 샘플 앱 생성 대시보드 화면에서 좌측 상단의 메뉴를 클릭하면 위와 같이 숨겨져 있던 메뉴들이 주루룩 나오는데, Cloud Foundry메뉴에서 vCpu를 생성할 수 있으므로 클릭해주도록 하자.\n클릭하면 설정하는 화면으로 이동하게 되며, 해당 화면에서 생성하고자 하는 앱과 리소스 구성에 대한 설정을 손쉽게 할 수 있다. 별도의 Shell 환경에서의 지정을 거치지 않아도 된다는 게 아주 편했다.\n설정 화면을 넘어가면, 샘플 앱에 대한 이름과 위치(국가), 요금제 등을 선택하는 화면이 출력된다.\nLite 계정은 최대 256MB의 메모리까지 사용 가능하다.\n무료 티어를 체험하는 것이 목적이므로, 플랜에 맞는 요금제를 선택하면, 어떤 언어와 자원으로 앱을 구성할 것인지를 선택하게 된다. Node.js 테스트 목적으로 환경을 구성할 것이기 때문에 SDK for Node.js 를 선택하고, 간단한 태그를 기입해주었다.\n설정이 완료되면 다음과 같은 화면을 마주할 수 있다.\n그리고 앱 URL 방문을 클릭하여 URL로 이동하면, 반가운 Hello World 화면을 마주할 수 있다.\nNode.js Repository Clone IBM github에서 get-started-node 레포지토리를 클론해서 Node.js 샘플 프로젝트를 실행해 볼 수 있다. 클론해서 관련 의존성 자료들을 설치하고,\n1 2  npm install npm start   를 해주면 3000번 포트에 서비스가 돌아가고 있다는 결과를 받을 수 있다. https://localhost:3000 에 접속하면 다음과 같은 화면이 나오는 것을 확인할 수 있다.\nIBM Cloud CLI 를 통하여 배포하기 IBM 홈페이지의 IBM Cloud CLI 시작하기 문서는 IBM Cloud CLI를 통하여 Foundry 환경에 배포하는 방법을 단계적으로 설명하고 있다. 우선, 운영체제에 맞는 IBM Cloud CLI 를 설치한다.\nMacOS or Linux 1  curl -sL https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/linux-installer/idt-installer | bash   Windows 10 Pro (PowerShell 관리자 모드로 실행) 1  [Net.ServicePointManager]::SecurityProtocol = \"Tls12, Tls11, Tls, Ssl3\"; iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/windows-installer/idt-win-installer.ps1')   설치가 완료되면 명령어를 통하여 로그인하여 지역설정을 해주자. 지역은 Foundry를 생성할 때 설정했던 지역과 동일하게 선택해주도록 하자. (ex. 댈러스 = us-south)\n1  ibmcloud login   로그인이 완료되면, Cloud Foundry 앱 설정 관련 파일인 manifest.yml 을 변경해주어야 한다. 앞서 생성한 Cloud Foundry에 맞게 설정해주어야 하며 설정을 제대로 해주지 않으면 앱이 하나 더 생겨서 메모리 아웃 (에러 정리 3번, 메모리 부족 참고)에러가 발생하므로 제대로 설정해주도록 하자.\n설정을 완료하였다면 다음 명령어를 통하여 ibmcloud에 배포하면 된다.\n1 2  ibmcloud target --cf ibmcloud cf push   로그에 찍히는 URL로 접근해보면 아까 레포지토리를 클론해서 배포 테스트했던 화면이 나오는 것을 확인할 수 있다. 만약 나오지 않는다면 리소스 그룹 설정 및 포트 관련 설정을 한 번 체크해보자..ㅠㅠ\n설치 중 발생했던 에러 정리 리소스 그룹 관련 에러 다음과 같이 ‘대상으로 지정된 리소스 그룹이 없습니다.’ 라는 에러가 발생하였다.\n리소스 지정만 해주면 된다.\n1  ibmcloud target -g Default    IBM Cloud Foundry를 통해 만들어둔 app 지정이 안되어 있었다는 것을 알았더라면 쉽게 해결했을 문제…  ‘Cloud Foundry CLI가 IBM Cloud CLI에 설치되지 않았습니다.’ 1  ibmcloud cf install   메모리 부족 메모리가 부족하다면서 에러가 발생할 때 ibm cloud 대시보드에서 app이 2개가 올라가진 않았는지 체크해보자.\n manifest.yml 에서 app name을 안바꿔서 get-started-node가 별도의 app 으로 올라가서 메모리 아웃이 발생한 상황 로그인하고, manifest.yml 파일을 열고 app name을 안바꿔주면 새로운 Cloud Foundry 앱을 만들어버린다는 점 상기할 것.  ","wordCount":"568","inLanguage":"en","datePublished":"2021-04-15T00:00:00Z","dateModified":"2021-04-15T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://zellyshu.github.io/posts/2021-04-15-ibm-cloud/"},"publisher":{"@type":"Organization","name":"ZS Log","logo":{"@type":"ImageObject","url":"https://zellyshu.github.io/favicon.png"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"IBM Cloud 가입부터 간단한 설정까지","name":"IBM Cloud 가입부터 간단한 설정까지","description":"Intro 본 포스팅은 이전 Oracle Cloud 가입과 간단한 설정에 관하여 작성했던 포스트의 IBM 버전이다. IBM Cloud의 가입과 Free Tier인 Lite 계정에서 클라우드 초심자가 개발 환경을 설정해 본 경험을 (= 미래의 내가 잊어먹지 않도록 정리해둔 것을) 다룬 것이다. 나와 같은 분들과 IBM Cloud를 처음 사용하시는 분들께 조금이나마 참고 자료로서 도움이 되었으면 하는 마음에 글을 작성하였다.\nIBM Cloud란? IBM Cloud는 어디선가 한 번쯤은 들어봤을 IBM사에서 운영하는 Cloud Flatform으로, 현재 무료 티어인 Lite 계정을 지원하고 있다.","keywords":["IBM","Cloud"],"articleBody":"Intro 본 포스팅은 이전 Oracle Cloud 가입과 간단한 설정에 관하여 작성했던 포스트의 IBM 버전이다. IBM Cloud의 가입과 Free Tier인 Lite 계정에서 클라우드 초심자가 개발 환경을 설정해 본 경험을 (= 미래의 내가 잊어먹지 않도록 정리해둔 것을) 다룬 것이다. 나와 같은 분들과 IBM Cloud를 처음 사용하시는 분들께 조금이나마 참고 자료로서 도움이 되었으면 하는 마음에 글을 작성하였다.\nIBM Cloud란? IBM Cloud는 어디선가 한 번쯤은 들어봤을 IBM사에서 운영하는 Cloud Flatform으로, 현재 무료 티어인 Lite 계정을 지원하고 있다. 특히 무료 티어에서도 2GB의 데이터 스토리지, 1 vCPU 제공 등 무료임에도 준수한 서비스들을 제공하고 있다는 것이 특징이다. 또한, Free Tier인 Lite 계정의 경우 기간 제한이 없고, 신용 카드 정보도 필요하지 않다는 점을 내세우고 있다.\n가입 가입은 과정을 따라 진행하면 되며, 메일로 code를 인증하면 계정 생성이 완료된다.\n로그인하게 되면 여타 클라우드 서비스와 마찬가지로 대시보드 화면을 마주할 수 있게 된다.\n설정 및 샘플 앱 생성 대시보드 화면에서 좌측 상단의 메뉴를 클릭하면 위와 같이 숨겨져 있던 메뉴들이 주루룩 나오는데, Cloud Foundry메뉴에서 vCpu를 생성할 수 있으므로 클릭해주도록 하자.\n클릭하면 설정하는 화면으로 이동하게 되며, 해당 화면에서 생성하고자 하는 앱과 리소스 구성에 대한 설정을 손쉽게 할 수 있다. 별도의 Shell 환경에서의 지정을 거치지 않아도 된다는 게 아주 편했다.\n설정 화면을 넘어가면, 샘플 앱에 대한 이름과 위치(국가), 요금제 등을 선택하는 화면이 출력된다.\nLite 계정은 최대 256MB의 메모리까지 사용 가능하다.\n무료 티어를 체험하는 것이 목적이므로, 플랜에 맞는 요금제를 선택하면, 어떤 언어와 자원으로 앱을 구성할 것인지를 선택하게 된다. Node.js 테스트 목적으로 환경을 구성할 것이기 때문에 SDK for Node.js 를 선택하고, 간단한 태그를 기입해주었다.\n설정이 완료되면 다음과 같은 화면을 마주할 수 있다.\n그리고 앱 URL 방문을 클릭하여 URL로 이동하면, 반가운 Hello World 화면을 마주할 수 있다.\nNode.js Repository Clone IBM github에서 get-started-node 레포지토리를 클론해서 Node.js 샘플 프로젝트를 실행해 볼 수 있다. 클론해서 관련 의존성 자료들을 설치하고,\nnpm install npm start 를 해주면 3000번 포트에 서비스가 돌아가고 있다는 결과를 받을 수 있다. https://localhost:3000 에 접속하면 다음과 같은 화면이 나오는 것을 확인할 수 있다.\nIBM Cloud CLI 를 통하여 배포하기 IBM 홈페이지의 IBM Cloud CLI 시작하기 문서는 IBM Cloud CLI를 통하여 Foundry 환경에 배포하는 방법을 단계적으로 설명하고 있다. 우선, 운영체제에 맞는 IBM Cloud CLI 를 설치한다.\nMacOS or Linux curl -sL https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/linux-installer/idt-installer | bash Windows 10 Pro (PowerShell 관리자 모드로 실행) [Net.ServicePointManager]::SecurityProtocol = \"Tls12, Tls11, Tls, Ssl3\"; iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/windows-installer/idt-win-installer.ps1') 설치가 완료되면 명령어를 통하여 로그인하여 지역설정을 해주자. 지역은 Foundry를 생성할 때 설정했던 지역과 동일하게 선택해주도록 하자. (ex. 댈러스 = us-south)\nibmcloud login 로그인이 완료되면, Cloud Foundry 앱 설정 관련 파일인 manifest.yml 을 변경해주어야 한다. 앞서 생성한 Cloud Foundry에 맞게 설정해주어야 하며 설정을 제대로 해주지 않으면 앱이 하나 더 생겨서 메모리 아웃 (에러 정리 3번, 메모리 부족 참고)에러가 발생하므로 제대로 설정해주도록 하자.\n설정을 완료하였다면 다음 명령어를 통하여 ibmcloud에 배포하면 된다.\nibmcloud target --cf ibmcloud cf push 로그에 찍히는 URL로 접근해보면 아까 레포지토리를 클론해서 배포 테스트했던 화면이 나오는 것을 확인할 수 있다. 만약 나오지 않는다면 리소스 그룹 설정 및 포트 관련 설정을 한 번 체크해보자..ㅠㅠ\n설치 중 발생했던 에러 정리 리소스 그룹 관련 에러 다음과 같이 ‘대상으로 지정된 리소스 그룹이 없습니다.’ 라는 에러가 발생하였다.\n리소스 지정만 해주면 된다.\nibmcloud target -g Default  IBM Cloud Foundry를 통해 만들어둔 app 지정이 안되어 있었다는 것을 알았더라면 쉽게 해결했을 문제…  ‘Cloud Foundry CLI가 IBM Cloud CLI에 설치되지 않았습니다.’ ibmcloud cf install 메모리 부족 메모리가 부족하다면서 에러가 발생할 때 ibm cloud 대시보드에서 app이 2개가 올라가진 않았는지 체크해보자.\n manifest.yml 에서 app name을 안바꿔서 get-started-node가 별도의 app 으로 올라가서 메모리 아웃이 발생한 상황 로그인하고, manifest.yml 파일을 열고 app name을 안바꿔주면 새로운 Cloud Foundry 앱을 만들어버린다는 점 상기할 것.  ","wordCount":"559","inLanguage":"en","datePublished":"2021-04-15T00:00:00Z","dateModified":"2021-04-15T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://zellyshu.github.io/posts/2021-04-15-ibm-cloud/"},"publisher":{"@type":"Organization","name":"ZS Log","logo":{"@type":"ImageObject","url":"https://zellyshu.github.io/favicon.png"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -155,61 +155,24 @@ IBM Cloud 가입부터 간단한 설정까지
 </p>
 <h2 id=nodejs-repository-clone>Node.js Repository Clone<a hidden class=anchor aria-hidden=true href=#nodejs-repository-clone>#</a></h2>
 <p>IBM github에서 get-started-node 레포지토리를 클론해서 Node.js 샘플 프로젝트를 실행해 볼 수 있다. 클론해서 관련 의존성 자료들을 설치하고,</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>npm install
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>npm install
 npm start
-</code></pre></td></tr></table>
-</div>
-</div><p>를 해주면 3000번 포트에 서비스가 돌아가고 있다는 결과를 받을 수 있다. https://localhost:3000 에 접속하면 다음과 같은 화면이 나오는 것을 확인할 수 있다.</p>
+</code></pre></div><p>를 해주면 3000번 포트에 서비스가 돌아가고 있다는 결과를 받을 수 있다. https://localhost:3000 에 접속하면 다음과 같은 화면이 나오는 것을 확인할 수 있다.</p>
 <p><img loading=lazy src=/img/2021-04-15-ibm-cloud13.PNG alt=2021-04-15-ibm-cloud13.PNG>
 </p>
 <h2 id=ibm-cloud-cli-를-통하여-배포하기>IBM Cloud CLI 를 통하여 배포하기<a hidden class=anchor aria-hidden=true href=#ibm-cloud-cli-를-통하여-배포하기>#</a></h2>
 <p>IBM 홈페이지의 <a href="https://cloud.ibm.com/docs/cli?topic=cli-getting-started">IBM Cloud CLI 시작하기</a> 문서는 IBM Cloud CLI를 통하여 Foundry 환경에 배포하는 방법을 단계적으로 설명하고 있다. 우선, 운영체제에 맞는 IBM Cloud CLI 를 설치한다.</p>
 <h3 id=macos-or-linux><strong>MacOS or Linux</strong><a hidden class=anchor aria-hidden=true href=#macos-or-linux>#</a></h3>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>curl -sL https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/linux-installer/idt-installer <span class=p>|</span> bash
-</code></pre></td></tr></table>
-</div>
-</div><h3 id=windows-10-pro-powershell-관리자-모드로-실행><strong>Windows 10 Pro (PowerShell 관리자 모드로 실행)</strong><a hidden class=anchor aria-hidden=true href=#windows-10-pro-powershell-관리자-모드로-실행>#</a></h3>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=o>[</span>Net.ServicePointManager<span class=o>]</span>::SecurityProtocol <span class=o>=</span> <span class=s2>&#34;Tls12, Tls11, Tls, Ssl3&#34;</span><span class=p>;</span> iex<span class=o>(</span>New-Object Net.WebClient<span class=o>)</span>.DownloadString<span class=o>(</span><span class=s1>&#39;https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/windows-installer/idt-win-installer.ps1&#39;</span><span class=o>)</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>설치가 완료되면 명령어를 통하여 로그인하여 지역설정을 해주자. 지역은 Foundry를 생성할 때 설정했던 지역과 동일하게 선택해주도록 하자. (ex. 댈러스 = us-south)</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ibmcloud login
-</code></pre></td></tr></table>
-</div>
-</div><p>로그인이 완료되면, Cloud Foundry 앱 설정 관련 파일인 manifest.yml 을 변경해주어야 한다. 앞서 생성한 Cloud Foundry에 맞게 설정해주어야 하며 설정을 제대로 해주지 않으면 앱이 하나 더 생겨서 메모리 아웃 (에러 정리 3번, 메모리 부족 참고)에러가 발생하므로 제대로 설정해주도록 하자.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>curl -sL https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/linux-installer/idt-installer <span class=p>|</span> bash
+</code></pre></div><h3 id=windows-10-pro-powershell-관리자-모드로-실행><strong>Windows 10 Pro (PowerShell 관리자 모드로 실행)</strong><a hidden class=anchor aria-hidden=true href=#windows-10-pro-powershell-관리자-모드로-실행>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=o>[</span>Net.ServicePointManager<span class=o>]</span>::SecurityProtocol <span class=o>=</span> <span class=s2>&#34;Tls12, Tls11, Tls, Ssl3&#34;</span><span class=p>;</span> iex<span class=o>(</span>New-Object Net.WebClient<span class=o>)</span>.DownloadString<span class=o>(</span><span class=s1>&#39;https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/windows-installer/idt-win-installer.ps1&#39;</span><span class=o>)</span>
+</code></pre></div><p>설치가 완료되면 명령어를 통하여 로그인하여 지역설정을 해주자. 지역은 Foundry를 생성할 때 설정했던 지역과 동일하게 선택해주도록 하자. (ex. 댈러스 = us-south)</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ibmcloud login
+</code></pre></div><p>로그인이 완료되면, Cloud Foundry 앱 설정 관련 파일인 manifest.yml 을 변경해주어야 한다. 앞서 생성한 Cloud Foundry에 맞게 설정해주어야 하며 설정을 제대로 해주지 않으면 앱이 하나 더 생겨서 메모리 아웃 (에러 정리 3번, 메모리 부족 참고)에러가 발생하므로 제대로 설정해주도록 하자.</p>
 <p>설정을 완료하였다면 다음 명령어를 통하여 ibmcloud에 배포하면 된다.</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ibmcloud target --cf
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ibmcloud target --cf
 ibmcloud cf push
-</code></pre></td></tr></table>
-</div>
-</div><p>로그에 찍히는 URL로 접근해보면 아까 레포지토리를 클론해서 배포 테스트했던 화면이 나오는 것을 확인할 수 있다. 만약 나오지 않는다면 리소스 그룹 설정 및 포트 관련 설정을 한 번 체크해보자..ㅠㅠ</p>
+</code></pre></div><p>로그에 찍히는 URL로 접근해보면 아까 레포지토리를 클론해서 배포 테스트했던 화면이 나오는 것을 확인할 수 있다. 만약 나오지 않는다면 리소스 그룹 설정 및 포트 관련 설정을 한 번 체크해보자..ㅠㅠ</p>
 <p><img loading=lazy src=/img/2021-04-15-ibm-cloudsuccess01.PNG alt=2021-04-15-ibm-cloudsuccess01.PNG>
 </p>
 <p><img loading=lazy src=/img/2021-04-15-ibm-cloudsuccess02.PNG alt=2021-04-15-ibm-cloudsuccess02.PNG>
@@ -218,27 +181,13 @@ ibmcloud cf push
 <h3 id=리소스-그룹-관련-에러>리소스 그룹 관련 에러<a hidden class=anchor aria-hidden=true href=#리소스-그룹-관련-에러>#</a></h3>
 <p>다음과 같이 &lsquo;대상으로 지정된 리소스 그룹이 없습니다.&rsquo; 라는 에러가 발생하였다.</p>
 <p>리소스 지정만 해주면 된다.</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ibmcloud target -g Default
-</code></pre></td></tr></table>
-</div>
-</div><ul>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ibmcloud target -g Default
+</code></pre></div><ul>
 <li>IBM Cloud Foundry를 통해 만들어둔 app 지정이 안되어 있었다는 것을 알았더라면 쉽게 해결했을 문제&mldr;</li>
 </ul>
 <h3 id=cloud-foundry-cli가-ibm-cloud-cli에-설치되지-않았습니다>&lsquo;Cloud Foundry CLI가 IBM Cloud CLI에 설치되지 않았습니다.&rsquo;<a hidden class=anchor aria-hidden=true href=#cloud-foundry-cli가-ibm-cloud-cli에-설치되지-않았습니다>#</a></h3>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ibmcloud cf install
-</code></pre></td></tr></table>
-</div>
-</div><h3 id=메모리-부족>메모리 부족<a hidden class=anchor aria-hidden=true href=#메모리-부족>#</a></h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ibmcloud cf install
+</code></pre></div><h3 id=메모리-부족>메모리 부족<a hidden class=anchor aria-hidden=true href=#메모리-부족>#</a></h3>
 <p><img loading=lazy src=/img/2021-04-15-ibm-clouderror_memory.PNG alt=2021-04-15-ibm-clouderror_memory.PNG>
 </p>
 <p>메모리가 부족하다면서 에러가 발생할 때 ibm cloud 대시보드에서 app이 2개가 올라가진 않았는지 체크해보자.</p>
