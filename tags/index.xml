@@ -9,7 +9,52 @@
       <link>https://zellyshu.github.io/cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Dec 2021 14:39:01 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 16:28:49 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Container Management</title>
+      <link>https://zellyshu.github.io/tags/container-management/</link>
+      <pubDate>Thu, 27 Jan 2022 16:28:49 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/container-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker Desktop</title>
+      <link>https://zellyshu.github.io/tags/docker-desktop/</link>
+      <pubDate>Thu, 27 Jan 2022 16:28:49 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/docker-desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://zellyshu.github.io/tags/kubernetes/</link>
+      <pubDate>Thu, 27 Jan 2022 16:28:49 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenSource</title>
+      <link>https://zellyshu.github.io/tags/opensource/</link>
+      <pubDate>Thu, 27 Jan 2022 16:28:49 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rancher Desktop</title>
+      <link>https://zellyshu.github.io/tags/rancher-desktop/</link>
+      <pubDate>Thu, 27 Jan 2022 16:28:49 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/tags/rancher-desktop/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Log4j</title>
       <link>https://zellyshu.github.io/tags/log4j/</link>
@@ -187,15 +232,6 @@
       <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
       
       <guid>https://zellyshu.github.io/tags/data-visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenSource</title>
-      <link>https://zellyshu.github.io/tags/opensource/</link>
-      <pubDate>Thu, 23 Sep 2021 11:18:21 +0000</pubDate>
-      
-      <guid>https://zellyshu.github.io/tags/opensource/</guid>
       <description></description>
     </item>
     

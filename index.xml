@@ -9,7 +9,17 @@
       <link>https://zellyshu.github.io/cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Dec 2021 14:39:01 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 16:28:49 +0000</lastBuildDate><atom:link href="https://zellyshu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rancher Desktop 1.0으로 Docker Desktop 대체해보기</title>
+      <link>https://zellyshu.github.io/posts/2022-01-27-rancher-desktop-installation/</link>
+      <pubDate>Thu, 27 Jan 2022 16:28:49 +0000</pubDate>
+      
+      <guid>https://zellyshu.github.io/posts/2022-01-27-rancher-desktop-installation/</guid>
+      <description>Intro Docker Desktop의 유료화 소식을 지난해 9월에 듣고 대체재를 찾아보다 결국 포기한 적이 있었다. 하지만 메일로 22년 1월 31일까지 유료 구독에 등록해야 Docker Desktop을 사용할 수 있다는 이야길 보고 정말 이젠 대체재를 찾아야겠단 생각이 들었다. 그러던 중 Rancher Desktop 이란 오픈소스 프로젝트(Apache-2.0 License)를 알게 되었고, 1.0.0 ver이 22년 1월 27일 release 되자마자 바로 다운로드 받아보았다.
+ Rancher Desktop Electron으로 구현되어서 Windows, MacOS, Linux 에서 사용 가능한 것이 특징이며, 특히 Mac의 경우 Intel 과 Silicon Mac 모두 지원하고 있다.</description>
+    </item>
+    
     <item>
       <title>Tableau Log4j 보안 이슈 대응 및 해결방안 정리</title>
       <link>https://zellyshu.github.io/posts/2021-12-23-tableau-log4j-issue/</link>
